@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://maserdigital.tech/</loc>
-  </url>
+  <url><loc>https://maserdigital.tech/</loc></url>
+  <url><loc>https://maserdigital.tech/services/</loc></url>
+  <url><loc>https://maserdigital.tech/methode/</loc></url>
+  <url><loc>https://maserdigital.tech/a-propos/</loc></url>
+  <url><loc>https://maserdigital.tech/contact/</loc></url>
+  <url><loc>https://maserdigital.tech/mentions-legales/</loc></url>
 </urlset>

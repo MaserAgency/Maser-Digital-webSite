@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Méthode de travail & FAQ — Projets web et IA | MaserDigital</title>
+<meta name="description" content="Découverte, devis, conception, développement itératif et mise en production : une méthode claire pour vos projets web et IA. Réponses aux questions fréquentes." />
+<link rel="canonical" href="https://maserdigital.tech/methode/" />
+<meta name="theme-color" content="#07070c" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+<div class="curtain" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<script>try{if(sessionStorage.getItem("curtain"))document.currentScript.previousElementSibling.classList.add("in")}catch(e){}</script>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container nav">
+    <a href="/" class="logo" aria-label="Morille.dev — accueil">
+      <span class="logo-mark" aria-hidden="true">M</span>
+      <span>MaserDigital<em>.tech</em></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/" data-link="accueil">Accueil</a></li>
+      <li><a href="/services/" data-link="services">Services</a></li>
+      <li><a href="/methode/" data-link="methode">Méthode</a></li>
+      <li><a href="/a-propos/" data-link="apropos">À propos</a></li>
+      <li><a href="/contact/" data-link="contact">Contact</a></li>
+    </ul>
+    <a href="/contact/" class="btn btn-primary btn-sm magnetic">Démarrer un projet</a>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- ================= PAGE : METHODE ================= -->
+<div class="page active" id="methode" data-title="Méthode">
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow reveal">Méthode</span>
+ <h1 class="h-xl reveal" style="--d:1">Un process<br><span class="grad">clair et transparent.</span></h1>
+        <p class="lead reveal" style="--d:2">Vous savez à chaque étape où en est votre projet, ce qui a été livré et ce qui arrive ensuite.</p>
+      </div>
+      <div class="timeline" id="timeline">
+        <span class="timeline-fill" aria-hidden="true"></span>
+ <div class="step reveal" data-step="1"><h3>Découverte</h3><p>Échange sur vos objectifs, vos contraintes et vos utilisateurs. Je reformule le besoin pour être sûr de viser juste.</p><div class="tags"><span class="tag">Appel 30 min</span><span class="tag">Gratuit</span></div></div>
+ <div class="step reveal" data-step="2"><h3>Proposition</h3><p>Une approche technique, un périmètre précis, un planning et un devis détaillé. Pas de surprise.</p><div class="tags"><span class="tag">Devis</span><span class="tag">Planning</span></div></div>
+ <div class="step reveal" data-step="3"><h3>Conception</h3><p>Maquettes, architecture, modèle de données. On valide ensemble avant d'écrire la moindre ligne de production.</p><div class="tags"><span class="tag">Maquettes</span><span class="tag">Architecture</span></div></div>
+        <div class="step reveal" data-step="4"><h3>Développement itératif</h3><p>Livraisons régulières sur un environnement de test : vous voyez le projet avancer et pouvez réagir tôt.</p><div class="tags"><span class="tag">Démo régulière</span><span class="tag">Tests</span></div></div>
+ <div class="step reveal" data-step="5"><h3>Mise en production & suivi</h3><p>Déploiement, documentation, transfert de compétences et maintenance si vous le souhaitez.</p><div class="tags"><span class="tag">Déploiement</span><span class="tag">Maintenance</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+ <span class="eyebrow reveal">FAQ</span>
+        <h2 class="h-lg reveal" style="--d:1">Questions fréquentes</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal"><summary>Combien coûte un projet ?</summary><p>Cela dépend du périmètre. Après un premier échange, vous recevez un devis détaillé et fixe pour le périmètre défini. Les évolutions hors périmètre font l'objet d'un avenant validé ensemble.</p></details>
+ <details class="reveal"><summary>Quels sont les délais ?</summary><p>Un site vitrine prend généralement quelques semaines ; une application ou un agent IA plus complexe davantage. Le planning est précisé dans la proposition.</p></details>
+        <details class="reveal"><summary>Est-ce que je serai propriétaire du code ?</summary><p>Oui : les modalités de cession des droits sont précisées au contrat. Le code est livré documenté, sur un dépôt Git auquel vous avez accès.</p></details>
+        <details class="reveal"><summary>La collecte de données est-elle légale ?</summary><p>Elle l'est sous conditions : respect du RGPD pour les données personnelles, des conditions d'utilisation des sites et du droit des producteurs de bases de données. Chaque projet est cadré en amont sur ces points.</p></details>
+ <details class="reveal"><summary>Assurez-vous la maintenance ?</summary><p>Oui, via un forfait de maintenance optionnel : mises à jour de sécurité, surveillance, petites évolutions.</p></details>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-big" aria-hidden="true">maser-digital</div>
+    <div class="footer-row">
+      <span>© <span id="year"></span> V. Morille · Services informatiques</span>
+      <nav aria-label="Liens de pied de page">
+        <a href="/services/">Services</a><a href="/methode/">Méthode</a><a href="/contact/">Contact</a><a href="/mentions-legales/">Mentions légales</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>

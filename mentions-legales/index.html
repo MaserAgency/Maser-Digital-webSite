@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mentions légales | MaserDigital</title>
+<meta name="description" content="Mentions légales du site MaserDigital : éditeur, hébergement, données personnelles, cookies et propriété intellectuelle." />
+<link rel="canonical" href="https://maserdigital.tech/mentions-legales/" />
+<meta name="theme-color" content="#07070c" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+<div class="curtain" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<script>try{if(sessionStorage.getItem("curtain"))document.currentScript.previousElementSibling.classList.add("in")}catch(e){}</script>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container nav">
+    <a href="/" class="logo" aria-label="Morille.dev — accueil">
+      <span class="logo-mark" aria-hidden="true">M</span>
+      <span>MaserDigital<em>.tech</em></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/" data-link="accueil">Accueil</a></li>
+      <li><a href="/services/" data-link="services">Services</a></li>
+      <li><a href="/methode/" data-link="methode">Méthode</a></li>
+      <li><a href="/a-propos/" data-link="apropos">À propos</a></li>
+      <li><a href="/contact/" data-link="contact">Contact</a></li>
+    </ul>
+    <a href="/contact/" class="btn btn-primary btn-sm magnetic">Démarrer un projet</a>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- ================= PAGE : MENTIONS LEGALES ================= -->
+<div class="page active" id="mentions" data-title="Mentions légales">
+  <section>
+    <div class="container">
+      <div class="section-head">
+ <span class="eyebrow reveal">Informations légales</span>
+        <h1 class="h-lg reveal" style="--d:1">Mentions légales</h1>
+      </div>
+      <div class="legal">
+        <div class="reveal"><h2>Éditeur du site</h2>
+          <p>V. Morille — Entrepreneur individuel, activité libérale<br>
+   Adresse : <span class="placeholder">Bordeaux, France</span><br>
+   SIREN / SIRET : <span class="placeholder">En cours d'acquisition</span><br>
+   E-mail : <span class="placeholder"><a href="mailto:valentin.morille@maserdigital.tech" class="js-email">valentin.morille@maserdigital.tech</a></span><br>
+   TVA : <span class="placeholder">En cours d'acquisition</span><br>
+          Directeur de la publication : V. Morille</p></div>
+        <div class="reveal"><h2>Hébergement</h2><p><span class="placeholder">GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA</span></p></div>
+ <div class="reveal"><h2>Données personnelles</h2>
+   <p>Les données transmises via le formulaire de contact servent uniquement à répondre à votre demande. Elles ne sont ni cédées ni revendues. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et d'effacement en écrivant à l'adresse ci-dessus.</p></div>
+        <div class="reveal"><h2>Cookies</h2><p>Ce site n'utilise pas de cookies de suivi. Les polices sont chargées depuis Google Fonts.</p></div>
+        <div class="reveal"><h2>Propriété intellectuelle</h2><p>L'ensemble des contenus de ce site est protégé. Toute reproduction sans autorisation est interdite.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-big" aria-hidden="true">maser-digital</div>
+    <div class="footer-row">
+      <span>© <span id="year"></span> V. Morille · Services informatiques</span>
+      <nav aria-label="Liens de pied de page">
+        <a href="/services/">Services</a><a href="/methode/">Méthode</a><a href="/contact/">Contact</a><a href="/mentions-legales/">Mentions légales</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
